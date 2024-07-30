@@ -14,11 +14,11 @@ public class NumberOperations {
         System.out.print("Enter the third number: ");
         double num3 = scanner.nextDouble();
 
-        // Find the largest number
-        double largest = Math.max(num1, Math.max(num2, num3));
+        // Find the addition number
+        double addition = (num1+num2+num3);
 
-        // Display the sum of the largest number
-        System.out.println("Sum of the largest number: " + largest);
+        // Display the sum of the all number
+        System.out.println("Sum of the all numbers: " + addition);
 
         scanner.close();
     }
